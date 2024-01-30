@@ -1,0 +1,25 @@
+#progressbar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 10px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 100px;
+}
+
+#progress {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    width: 10%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: rgb(36, 79, 105);
+}
+h3{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

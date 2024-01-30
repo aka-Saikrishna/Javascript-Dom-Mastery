@@ -1,0 +1,12 @@
+body{
+    padding: 30px;
+}
+
+textarea{
+    width: 400px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #797979;
+    outline-color: rgb(85, 85, 228);
+}
